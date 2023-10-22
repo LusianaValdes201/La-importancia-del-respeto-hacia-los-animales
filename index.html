@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>La importancia del respeto hacia los animales</title>
+    <style>
+        /* se definen los márgenes y rellenos para todos los elementos */
+        * {
+            margin: 2px;
+            padding: 2px;
+        }
+
+        body {
+            background: rgb(149, 100, 149);
+        }
+        /* Estilos para el encabezado */
+        header {
+            background: pink;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        /* Se representa el contenedor principal, donde se controla su ancho, márgenes y relleno */
+        .wrapper {
+            width: 90%;
+            max-width: 1002px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header .logo {
+            color: black;
+            font-size: 50px;
+            line-height: 200px;
+            float: left;
+        }
+
+        header nav {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        header nav a {
+            display: inline-block;
+            color: black;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: all 0.5s ease;
+        }
+
+        header nav a:hover {
+            background: green;
+            border-radius: 50px;
+        }
+
+        .header2 {
+            position: fixed;
+            height: 150px;
+        }
+
+        .contenido {
+            padding-top: 170px;
+        }
+
+        .contenido1 {
+            padding-top: 50px;
+        }
+
+        .contenido p {
+            margin-bottom: 1em;
+        }
+
+        section[id] {
+            scroll-margin-top: 70px;
+        }
+
+        .article {
+            background: rgb(230, 230, 191);
+            width: 100%;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .imagenes1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Se establece el ancho y el margen de las imágenes en diferentes secciones */
+        .plano-americano {
+            width: 350px;
+            height: 350px;
+            margin-right: 50px;
+        }
+
+        .plano-general {
+            width: 300px;
+            height: 350px;
+            margin-left: 50px;
+        }
+
+        .colorarticle {
+            color: #a73131;
+        }
+
+        .plano-medio-corto {
+            width: 350px;
+            height: 370px;
+            margin-right: 30px;
+        }
+
+        .plano-medio {
+            width: 350px;
+            height: 370px;
+            margin-left: 30px;
+        }
+
+        .primer-plano {
+            width: 350px;
+            height: 300px;
+            margin-right: 20px;
+        }
+
+        .primerisimo-primer-plano {
+            width: 400px;
+            height: 300px;
+            margin-left: 20px;
+        }
+
+        aside {
+            float: left;
+            width: 200px;
+            background: rgb(69, 8, 84);
+        }
+
+        .asidestyle {
+            padding-bottom: 400px;
+        }
+
+        .asidestilo1 {
+            padding-top: 500px;
+        }
+
+        .widget {
+            margin-bottom: 40px;
+        }
+
+        /* Las entradas de formulario dentro del widget se modifican con márgenes y relleno */
+        .widget form input[type="name"],
+        .widget form input[type="email"],
+        .widget form input[type="phone number"] {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        .footerstyle {
+            text-align: center;
+            padding-bottom: 50px;
+            padding-top: 50px;
+        }
+
+        table {
+            margin: 0 auto;
+        }
+
+        th,
+        td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        tr:nth-of-type(1) > th {
+            background-color: blue;
+            color: #ffffff;
+        }
+
+        td {
+            background-color: white;
+        }
+
+        .imgheader {
+            position: absolute;
+            left: 1500px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    
+   
+    <form> <ul class="nav justify-content-center">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+        </ul>
+      </form>
+      <ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="https://www.fundacionaquae.org/wiki/consejos-para-proteger-a-los-animales/">tips</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.worldvision.cr/blog/3-beneficios-de-ensenarle-a-tu-hijo-a-amar-a-los-animales#:~:text=Amar%20a%20los%20animales%20ayuda,personas%20m%C3%A1s%20emocionales%20y%20amorosos.">Beneficios</a>
+  </li>
+  <li class="nav-item">
+    <a class="http://www.cuentoscortos.com/cuentos-de-respeto-por-los-animales" href="#">Historias</a>
+  </li>
+</ul>
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/birds_rainbow-lorakeets.png" class="d-block w-71" alt="Amor">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/dogs_collies.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/fox.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        <div class="wrapper">
+            <h1 class="logo">La importancia del respeto hacia los animales</h1>
+            <nav>
+                <a href="#vida">¿Qué es el respeto hacia los animales?</a>
+                <a href="#consecuencias">Consecuencias de no respetar a los animales</a>
+                <a href="#inculcar">Cómo inculcar el respeto hacia los animales</a>
+            </nav>
+        </div>
+    </header>
+    <div class="header2"></div>
+    <div class="wrapper">
+        <section class="contenido">
+            <article class="article">
+                <p>Muchas personas no saben la importancia de respetar a los animales. ¿Cuántos de nosotros los animales han sido nuestra alegría y salvación? Aunque ellos solo agreguen cosas lindas a nuestra vida, nosotros agregamos buenas pero también malas a las de ellos. Cada ser, cada animal merece respeto y admiración.</p>
+                <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/kangaroos.png" width="300" height="200">
+                <p class="colorarticle">No es tarde para dejar atrás este mal comportamiento. Por eso les ayudaremos a valorar a los animales y aprender del respeto que se les tiene que dar: <strong>el respeto y la igualdad es vida y salud.</strong></p>
+            </article>
+        </section>
+        <section>
+            <h1>Temas abordados en este artículo</h1>
+            <ul>
+                <li>¿Cuál es la importancia de los animales en nuestra vida?</li>
+                <li>Consecuencias de no respetar a los animales</li>
+                <li>¿Cómo mejorar la forma del trato hacia los animales?</li>
+                <li>Formas de ayudar a los animales</li>
+                <li>¡Podremos llegar al respeto para todos!</li>
+            </ul>
+        </section>
+        <section>
+            <a name="vida"></a>
+            <h1>¿Qué es el respeto hacia los animales?</h1>
+        </section>
+        <table border="1">
+            <tr>
+                <th>BENEFICIOS HUMANOS</th>
+                <th>BENEFICIOS ANIMALES</th>
+            </tr>
+            <tr>
+                <td>Mejora la forma de ser</td>
+                <td>Brindar una mejor calidad de vida</td>
+            </tr>
+            <tr>
+                <td>Ayuda a desarrollar la empatía</td>
+                <td>Minimiza el estrésy el sufrimiento de los animales</td>
+            </tr>
+            <tr>
+                <td>Personas más emocionales y amorosos</td>
+                <td>Disminuye la mortalidad y las lesiones en los animales</td>
+            </tr>
+            <tr>
+                <td>Ejemplo a seguir para la educación de las generaciones futuras</td>
+                <td>Los animales se enferman menos</td>
+            </tr>
+        </table>
+        <section>
+            <a name="consecuencias"></a>
+            <h1>Consecuencias de no respetar a los animales</h1>
+        </section>
+        <p>La protección de los animales no se limita a los animales domésticos ni a los que tengamos más cerca, cada ser vivo ocupa un lugar importante en el planeta manteniendo su equilibrio.</p>
+        <p>Existen multitud de santuarios, protectoras y asociaciones dedicadas al cuidado de los animales, y muchas de ellas aceptan y aprecian visitas a cambio de una pequeña donación, ya sea económica o de tu tiempo. ¿Por qué no ir a dar de comer a los animales de un refugio? Seguro que te lo agradecerán y aprenderás mucho de tenerlos cerca.</p>
+        <p>Organiza eventos en el colegio de tus peques y propón diferentes actividades. Seguro que en algún "Día de..." relacionado con los animales o la naturaleza tiene cabida la realización de un mural sobre la vida y el respeto animal, o una serie de debates sobre la importancia del cuidado y respeto a los animales.</p>
+        <p>Las excursiones familiares son una estupenda excusa también para hacer hincapié y conocer ejemplos de respeto a los animales empezando por nosotros mismos visitando sus hábitats y no contaminándolos con basura y apreciando la vida animal de todos los tamaños, porque en un paseo por el campo no podemos dejar de fijarnos en arañitas, hormigas y pequeños insectos que nos acompañan a nuestro paso.</p>
+        <p>Para obtener más información sobre cómo inculcar el respeto hacia los animales, puedes <a href="https://www.ecolatras.es/blog/respeto-a-los-animales/inculcar-respeto-animales" target="_blank">hacer clic aquí</a>.</p>
+        <h2>Información personal</h2>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/horse.png" width="250" alt="Horse">
+    </div>
+    <footer>
+        <div class="wrapper">
+            <ul>
+                <li><p>Nombre: Lusiana Valdes Rozo</p></li>
+                <li><p>Contacto: 3213585095</p></li>
+                <li><p>Correo: lusivalen1971@gmail.com</p></li>
+                <li><p>Institución: Skolmi</p></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
